@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "age": 32,
+      "name": "Isaias Alves",
+      "city": "Montenegro",
+      "gender": "masculino",
+      "country":"Brasil"
+
+    },
+    {
+      "age": 29,
+      "name": "Rodrigo Dellinghausen",
+      "city": "Nova York",
+      "gender": "masculino",
+      "country":"Estados Unidos da America"
+      
+    },
+    {
+      "age": 19,
+      "name": "Jean Lukas ANdrade Restelli",
+      "city": "Garibaldi",
+      "gender": "masculino",
+      "country":"Brasil"
+    }
+  ]
+}

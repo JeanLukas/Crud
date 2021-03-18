@@ -1,0 +1,52 @@
+.table-show__users{
+    align-items: center;
+    text-align: center;
+    list-style:none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    padding-right: 20px;
+    margin-left: 10%;
+}
+
+.table-show__users td{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+li{
+    list-style:none;
+    display: none;
+  }
+
+tr{
+    
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #ececec;
+}
+
+th{
+    
+    border: none;
+    background-color: #cfcfcf;
+}
+
+.btn-back{
+    margin-left: 50%;
+    height: 40px;
+    width: 80px;
+    padding: 0;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title{
+    margin-left: 10%;
+    margin-top: 20%;
+}
