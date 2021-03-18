@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { api } from '../service/api';
 import { Table } from 'antd';
 import { Button } from 'antd';
+
 import './Crud.css';
 
 const COLUMNS = [
@@ -46,7 +47,7 @@ const Crud = (props) => {
     return (
         <>
             <label className="title">Clique no botao para criar novo usuario</label>
-            <Button className=" btn-back " type="link" onClick="goBack = ()">Criar novo usuario</Button>
+            <Button className=" btn-back " type="link" to="/">Criar novo usuario</Button>
 
             <Table className=" table-show__users " dataSource={userList}
                 columns={COLUMNS}

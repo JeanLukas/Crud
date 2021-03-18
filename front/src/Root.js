@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Routes from './components/Routes/Routes';
+
 
 const Root = () => {
   return (
@@ -13,7 +13,7 @@ const Root = () => {
      <Router>
        <Switch>
           <Route path="/list" component={Crud}/>
-          <Routes path="/" component={Form}/>
+          <Route path="/" component={Form}/>
        </Switch>
      </Router>
   
